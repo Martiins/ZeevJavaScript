@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(event) {
   
+  alert("Teste");
+  
   var codUsuario = document.getElementById('inpcodigoUsuario').value;
     
   fetch('https://servicedeskv4.orquestrabpm.com.br/api/internal/legacy/1.0/datasource/get/1.0/qw0Xk6xWKL563BI8VvBqJneFzLqGZyfxqcXk6ZQy7CSxCpnQ5wlstrR6McfJbjCJ5WbYRqenYnSQjFcSTrLD9g__?inpcodigoUsuario='+codUsuario, {
