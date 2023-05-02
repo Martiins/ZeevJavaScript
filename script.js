@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(event) {
   
-  alert("Teste");
+  alert("George");
   
   var codUsuario = document.getElementById('inpcodigoUsuario').value;
     
